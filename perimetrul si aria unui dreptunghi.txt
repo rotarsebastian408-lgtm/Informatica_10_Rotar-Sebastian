@@ -1,0 +1,5 @@
+lungimea = float(input('dati lungimea:'))
+latimea= float(input('dati latimea:'))
+perimetru =2*(lungimea+latimea)
+aria= lungimea*latimea
+print(f'perimetru: {perimetru:.2f} m,aria: {aria:.2f} m2')
