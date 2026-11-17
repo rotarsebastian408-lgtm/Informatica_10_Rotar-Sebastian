@@ -1,0 +1,6 @@
+a=int(input("Introduceti valoarea lui a: "))
+b=int(input("Introduceti valoarea lui b: "))
+x=int(input("Introduceti valoarea lui x: "))
+r=(range(a, b+1,2))
+print(list(r))
+print(x in list(r))
